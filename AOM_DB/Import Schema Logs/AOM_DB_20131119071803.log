@@ -1,0 +1,72 @@
+11/19/2013 3:18:03 PM	This log contains information about the import schema operation into project 'AOM_DB' on computer 'HANBO-PC' by user 'Hanbo'.
+11/19/2013 3:18:04 PM	Import of database schema has started.
+11/19/2013 3:18:09 PM	Gathering database options
+11/19/2013 3:18:09 PM	Gathering users
+11/19/2013 3:18:09 PM	Gathering roles
+11/19/2013 3:18:09 PM	Gathering application roles
+11/19/2013 3:18:09 PM	Gathering role memberships
+11/19/2013 3:18:09 PM	Gathering filegroups
+11/19/2013 3:18:09 PM	Gathering full-text catalogs
+11/19/2013 3:18:09 PM	Gathering assemblies
+11/19/2013 3:18:09 PM	Gathering certificates
+11/19/2013 3:18:09 PM	Gathering asymmetric keys
+11/19/2013 3:18:09 PM	Gathering symmetric keys
+11/19/2013 3:18:09 PM	Gathering encrypted symmetric keys
+11/19/2013 3:18:09 PM	Gathering schemas
+11/19/2013 3:18:09 PM	Gathering XML schema collections
+11/19/2013 3:18:09 PM	Gathering user-defined data types
+11/19/2013 3:18:09 PM	Gathering user-defined types
+11/19/2013 3:18:09 PM	Gathering table types
+11/19/2013 3:18:09 PM	Gathering unique keys for table types
+11/19/2013 3:18:09 PM	Gathering primary keys for table types
+11/19/2013 3:18:09 PM	Gathering check constraints for table types
+11/19/2013 3:18:09 PM	Gathering default constraints for table types
+11/19/2013 3:18:09 PM	Gathering partition functions
+11/19/2013 3:18:09 PM	Gathering partition schemes
+11/19/2013 3:18:09 PM	Gathering functions
+11/19/2013 3:18:09 PM	Gathering encrypted functions
+11/19/2013 3:18:09 PM	Gathering aggregates
+11/19/2013 3:18:09 PM	Gathering procedures
+11/19/2013 3:18:09 PM	Gathering encrypted procedures
+11/19/2013 3:18:09 PM	Gathering tables
+11/19/2013 3:18:09 PM	Gathering primary keys
+11/19/2013 3:18:09 PM	Gathering unique constraints
+11/19/2013 3:18:09 PM	Gathering foreign keys
+11/19/2013 3:18:09 PM	Gathering default constraints
+11/19/2013 3:18:09 PM	Gathering check constraints
+11/19/2013 3:18:09 PM	Gathering views
+11/19/2013 3:18:09 PM	Gathering encrypted views
+11/19/2013 3:18:09 PM	Gathering indexes
+11/19/2013 3:18:09 PM	Gathering statistics
+11/19/2013 3:18:09 PM	Gathering full-text index stoplists
+11/19/2013 3:18:09 PM	Gathering search property lists
+11/19/2013 3:18:09 PM	Gathering search properties
+11/19/2013 3:18:09 PM	Gathering full-text indexes
+11/19/2013 3:18:09 PM	Gathering column store indexes
+11/19/2013 3:18:09 PM	Gathering spatial indexes
+11/19/2013 3:18:09 PM	Gathering XML indexes
+11/19/2013 3:18:09 PM	Gathering encrypted triggers
+11/19/2013 3:18:09 PM	Gathering triggers
+11/19/2013 3:18:09 PM	Gathering encrypted and clr ddl triggers
+11/19/2013 3:18:09 PM	Gathering ddl triggers
+11/19/2013 3:18:09 PM	Gathering synonyms
+11/19/2013 3:18:09 PM	Gathering defaults
+11/19/2013 3:18:09 PM	Gathering data constraint uddt bindings
+11/19/2013 3:18:09 PM	Gathering rules
+11/19/2013 3:18:09 PM	Gathering data constraint uddt bindings
+11/19/2013 3:18:09 PM	Gathering message types
+11/19/2013 3:18:09 PM	Gathering queues
+11/19/2013 3:18:09 PM	Gathering contracts
+11/19/2013 3:18:09 PM	Gathering services
+11/19/2013 3:18:09 PM	Gathering event notifications
+11/19/2013 3:18:09 PM	Gathering remote service bindings
+11/19/2013 3:18:09 PM	Gathering broker priorities
+11/19/2013 3:18:09 PM	Gathering signatures
+11/19/2013 3:18:09 PM	Gathering data compression options
+11/19/2013 3:18:09 PM	Gathering sequence types
+11/19/2013 3:18:09 PM	Gathering extended properties
+11/19/2013 3:18:09 PM	Scanning project for duplicate elements
+11/19/2013 3:18:09 PM	Finished duplicate element processing
+11/19/2013 3:18:10 PM	Finished importing database.
+11/19/2013 3:18:10 PM	A summary of the import was saved to the following location: D:\AOM_CNC\AOM_DB\AOM_DB\Import Schema Logs\AOM_DB_20131119071803.log
+11/19/2013 3:18:10 PM	Click Finish to continue...
