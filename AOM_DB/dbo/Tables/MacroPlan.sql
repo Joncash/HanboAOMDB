@@ -22,8 +22,11 @@
     [CreateOn]                   DATETIME        NULL,
     [ModifiedOn]                 DATETIME        NULL,
     [IsDeleted]                  BIT             NULL,
+    [Snapshot]                   VARBINARY (MAX) NULL,
     CONSTRAINT [PK_MacroPlan] PRIMARY KEY CLUSTERED ([SN] ASC)
 );
+
+
 
 
 GO
@@ -100,4 +103,8 @@ EXECUTE sp_addextendedproperty @name = N'MS_Description', @value = N'修改時�
 
 GO
 EXECUTE sp_addextendedproperty @name = N'MS_Description', @value = N'是否刪除 (顯示於巨集列表)', @level0type = N'SCHEMA', @level0name = N'dbo', @level1type = N'TABLE', @level1name = N'MacroPlan', @level2type = N'COLUMN', @level2name = N'IsDeleted';
+
+
+GO
+EXECUTE sp_addextendedproperty @name = N'MS_Description', @value = N'程式編輯縮圖', @level0type = N'SCHEMA', @level0name = N'dbo', @level1type = N'TABLE', @level1name = N'MacroPlan', @level2type = N'COLUMN', @level2name = N'Snapshot';
 
