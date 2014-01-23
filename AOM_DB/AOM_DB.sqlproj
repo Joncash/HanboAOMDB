@@ -70,4 +70,7 @@
     <Build Include="Security\RoleMemberships.sql" />
     <Build Include="Security\sa_1.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="AOM_DB.publish.xml" />
+  </ItemGroup>
 </Project>

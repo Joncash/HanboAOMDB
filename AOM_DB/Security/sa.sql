@@ -1,2 +1,2 @@
-﻿CREATE USER [sa];
+﻿--CREATE USER [sa];
 
