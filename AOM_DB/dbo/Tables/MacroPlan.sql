@@ -29,6 +29,8 @@
 
 
 
+
+
 GO
 EXECUTE sp_addextendedproperty @name = N'MS_Description', @value = N'巨集名稱', @level0type = N'SCHEMA', @level0name = N'dbo', @level1type = N'TABLE', @level1name = N'MacroPlan', @level2type = N'COLUMN', @level2name = N'MacroName';
 
@@ -106,5 +108,7 @@ EXECUTE sp_addextendedproperty @name = N'MS_Description', @value = N'是否刪�
 
 
 GO
-EXECUTE sp_addextendedproperty @name = N'MS_Description', @value = N'程式編輯縮圖', @level0type = N'SCHEMA', @level0name = N'dbo', @level1type = N'TABLE', @level1name = N'MacroPlan', @level2type = N'COLUMN', @level2name = N'Snapshot';
+EXECUTE sp_addextendedproperty @name = N'MS_Description', @value = N'程式編輯縮圖 (工程編輯縮圖)', @level0type = N'SCHEMA', @level0name = N'dbo', @level1type = N'TABLE', @level1name = N'MacroPlan', @level2type = N'COLUMN', @level2name = N'Snapshot';
+
+
 
