@@ -23,8 +23,11 @@
     [ModifiedOn]                 DATETIME        NULL,
     [IsDeleted]                  BIT             NULL,
     [Snapshot]                   VARBINARY (MAX) NULL,
+    [TechnicalDrawingModel]      XML             NULL,
     CONSTRAINT [PK_MacroPlan] PRIMARY KEY CLUSTERED ([SN] ASC)
 );
+
+
 
 
 
@@ -111,4 +114,8 @@ GO
 EXECUTE sp_addextendedproperty @name = N'MS_Description', @value = N'程式編輯縮圖 (工程編輯縮圖)', @level0type = N'SCHEMA', @level0name = N'dbo', @level1type = N'TABLE', @level1name = N'MacroPlan', @level2type = N'COLUMN', @level2name = N'Snapshot';
 
 
+
+
+GO
+EXECUTE sp_addextendedproperty @name = N'MS_Description', @value = N'工程圖模型 xml 描述檔', @level0type = N'SCHEMA', @level0name = N'dbo', @level1type = N'TABLE', @level1name = N'MacroPlan', @level2type = N'COLUMN', @level2name = N'TechnicalDrawingModel';
 
